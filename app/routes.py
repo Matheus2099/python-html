@@ -7,7 +7,6 @@ def index():
     user = {'username': 'Matheus'}
     posts = [
         {'author': {'username': 'Maria'}, 'body': "Olá da Maria"},
-        {'author': {'username': 'Matheus'}, 'body': "Olá"},
-        {'author': {'username': 'Aline'}, 'body': "Olá, pessoal!"}
+        {'author': {'username': 'Matheus'}, 'body': "Olá"}
     ]
     return render_template("index.html", user=user, posts=posts)
